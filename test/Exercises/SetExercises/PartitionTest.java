@@ -18,7 +18,7 @@ public class PartitionTest {
         assertEquals(partition.partitionedLinkedList(10), expectedIntegerLinkedList);
     }
 
-    @Test   
+    @Test
     public void partitionAtProvidedValue_shouldPartitionLinkedLinkWithProvidedValue() throws Exception {
         LinkedList<Integer> integerLinkedList = generateIntegerLinkedList();
         Partition partition = new Partition(integerLinkedList);
